@@ -16,5 +16,12 @@
   --color-green-jungle: #004047;
   --color-green-sacramento: #012F34;
   --color-green-dark: #002529;
-  
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+li {
+  list-style: none;
 }

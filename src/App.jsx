@@ -1,9 +1,9 @@
-import React from "react";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="bg-green-midnight">
-      <h1 className="font-livvic text-4xl font-bold">Hello World</h1>
+    <div>
+      <Home />
     </div>
   );
 };
