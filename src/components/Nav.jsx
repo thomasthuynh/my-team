@@ -22,7 +22,6 @@ const Nav = () => {
           />
         </button>
       </div>
-
       {/* Mobile Menu */}
       <div
         className={`bg-blue-police absolute top-0 ${mobileMenu ? "right-0" : "-right-100"} h-screen w-2/3 transition-all duration-300`}
