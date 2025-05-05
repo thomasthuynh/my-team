@@ -9,12 +9,12 @@ const Nav = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <nav className="bg-green-midnight flex h-28 items-center">
+    <nav className="bg-green-midnight fixed top-0 z-10 flex h-28 w-full items-center">
       <div className="mx-auto flex h-[2rem] w-[90%] max-w-7xl items-center justify-between">
         <div className="h-full">
           <img src={logo} alt="myteam logo" className="h-full w-full" />
         </div>
-        <button onClick={() => setMobileMenu(!mobileMenu)} className="z-10">
+        <button onClick={() => setMobileMenu(!mobileMenu)} className="z-20">
           <img
             src={mobileMenu ? close : hamburger}
             alt="Hamburger menu"
